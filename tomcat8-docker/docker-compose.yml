@@ -1,0 +1,8 @@
+tomcat8:
+  image: dockerapp
+  ports:
+    - "8082:8080"
+  hostname:
+    tomcat
+  privileged:
+    true
